@@ -414,7 +414,7 @@ void *signOutPromptThread(void* arg){
 	int resp = WindowPrompt("Confirm", "Are you sure you want to sign out?", "Yes", "No");
 	switch (resp){
 		case 1:
-			unlink("/LichessWii/token.txt"); // delete saved login to sign out
+			unlink("/LichessWii/cookies.txt"); // delete saved login to sign out
 			unlink("/LichessWii/token.txt");
 			exitApp();
 		case 0:
@@ -635,7 +635,7 @@ void *menuRender(void* arg){
 	topUID.SetText("Anonymous");
 	chatLists.fields.clear();
 	chatLists.fields.push_back("Please be nice in chat!");
-	chatLists.fields.push_back("Chat does not autoscroll.");
+	chatLists.fields.push_back("Chat autoscrolls.");
 	pieceSelected = false;
 	selectedType = BR;
 	wtime = 1234567;

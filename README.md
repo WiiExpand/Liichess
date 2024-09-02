@@ -56,7 +56,7 @@ Finally, after the compilation has finished you should be left with the resultin
 ## Screenshots
 
 *A game in play*
-![App Screenshot](https://i.imgur.com/qDLtO8g.png)
+![App Screenshot](https://i.imgur.com/JBS7JmN.png)
 
 *The main menu*
 ![App Screenshot](https://i.imgur.com/X2vkYn7.png)
