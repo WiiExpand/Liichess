@@ -203,7 +203,7 @@ int main(int argc, char **argv) {
 		exitApp();
 	}*/
 	if (chdir("/LichessWii/")){
-		mkdir("/LichessWii/", 0777); // if directory doesn't exist, make it
+		mkdir("/LichessWii", 0777); // if directory doesn't exist, make it
 	}
 	//chdir(rootDirectory.c_str());
 	chdir("/");
